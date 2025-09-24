@@ -1,3 +1,4 @@
+# Arquivos padrão do Android Studio
 *.iml
 .gradle
 /local.properties
@@ -12,4 +13,18 @@
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+
+# Firebase / Google Services
+app/google-services.json
+app/google-services.plist
+
+# Chaves e certificados
+*.keystore
+*.jks
+
+# Logs
+*.log
+
+# Arquivos gerados
+*.apk
+*.aab
